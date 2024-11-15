@@ -16,8 +16,8 @@ if __name__=="__main__":
 
 '''
 from fastapi import FastAPI
-from core.config import settings
-from api.v1.api import api_router
+from API.core.config import settings
+from API.api.v1.api import api_router
 from pyngrok import ngrok
 import uvicorn
 
