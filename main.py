@@ -29,7 +29,7 @@ if __name__ == "__main__":
     #ngrok.set_auth_token("2odGdyqXpSVZvAoF06rCtGQfPA1_5ar3CqfcDwBTCCLn81pNA")  # Adicione seu token aqui
 
     # Configurar o túnel ngrok
-    #public_url = ngrok.connect(8000)
+    #public_url =ngrok.connect(8000, subdomain="seusubdominio")
     #print(f"Túnel público disponível em: {public_url}")
 
     # Iniciar o servidor Uvicorn
