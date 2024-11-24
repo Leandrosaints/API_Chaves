@@ -8,7 +8,8 @@ from sqlalchemy.ext.declarative import declarative_base
 
 class Settings(BaseSettings):
     API_V1_STR:str = "/api/v1"
-    DB_URL:str = 'mysql+asyncmy://root:''@localhost:3306/painel'
+    DB_URL: str = 'mysql+asyncmy://root:@34.56.150.139:3306/painel'
+
     DBBaseModel = declarative_base()
 
     JWT_SECRETS:str = "g_BA-RPpdW2uoAwZPTRIKorXErtMxH2thdJzB5X3TFY"
